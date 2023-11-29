@@ -1,38 +1,106 @@
-.App {
+header{
+  background-color:#3483c4;
+}
+
+.home{
+  line-height: 2;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+h1{
+  font-weight: 900;
+}
+
+ h2{
+  font-weight: 700;
+}
+ h3{
+  font-weight:600;
+}
+p{
+  font-weight: 500;
+}
+label{
+  font-size: 20px;
+  font-weight: 500;
+}
+h4{
+  margin-top: 20px;
+}
+
+
+section{
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.middle-container{
+  height: 700px;
+ 
+}
+
+.contactME{
+  text-decoration: none;
+  color: White;
+  background-color: #3030A9;
+  padding: 7px 50px 10px 50px;
+  border-radius: 30px;
+}
+.aboutMe{
+  padding: 50px 0 100px 0;
+}
+.aboutskills{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutskills span{
+  margin: 10px;
+  padding: 10px;
+  background: #3030A9;
+  border-radius: 10px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.aboutMe h2{
+  margin-bottom: 20px;
+}
+.aboutskills h3 {
+  margin-bottom: 20px;
+}
+.aboutskills .d-flex{
+  flex-wrap: wrap;
+}
+.card{
+  border-radius: 20px; 
+  width: 18rem; 
+}
+.card-container .d-flex{
+  gap: 126px;
+  flex-wrap:wrap
+}
+footer{
+  line-height: 2;
+  padding: 10px 0;
+  color: white;
+  background-color: #3483c4;
+}
+footer a{
+  color:white;
+}
+@media (max-width:1200px){
+  .card-container .d-flex {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px)
+{
+  .card-container .d-flex
+  {justify-content: center;}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
