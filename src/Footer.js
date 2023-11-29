@@ -8,6 +8,7 @@ const Footer = () => {
     alert("thank you");
     setInput("");
   };
+
   return (
     <section>
       <footer>
@@ -39,11 +40,9 @@ const Footer = () => {
                   style={{ justifyContent: "space-between" }}
                 >
                   <Link to="https://www.instagram.com/" target="_blank">
-                    {" "}
                     <i class="bi bi-instagram " style={{ width: "300px" }}></i>
                   </Link>
                   <Link to="https://in.linkedin.com/" target="_blank">
-                    {" "}
                     <i class="bi bi-linkedin"></i>
                   </Link>
                   <Link to="https://twitter.com/" target="_blank">

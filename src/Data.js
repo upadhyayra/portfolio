@@ -6,6 +6,7 @@ import weatherImg from "./assets/weather.png";
 import qrcodeImg from "./assets/QRcode.png";
 import github from "./assets/github.png"
 import ecomm from "./assets/ecomm.png"
+import calc from "./assets/calculator.png"
 
 const data = [
   {
@@ -74,7 +75,7 @@ const data = [
   },
   {
     title: "Calculator",
-    img: github,
+    img: calc,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     techUsed: "HTML,CSS,ReactJs",
